@@ -36,7 +36,7 @@ Explores relationships between different types of variables:
 - **Numerical vs. Numerical (`Quanti-Quanti`)**: Correlation matrices using `.corr()` (Pearson/Spearman).
 - **Numerical vs. Categorical (`Quanti-Quali`)**: Bar charts and boxplots of grouped data with mean and standard deviation for metrics.
 
-### 3. `estatistica_inferencial`
+### 3. `inferential_statistics`
 Contains practical cases and scenarios applying inferential statistical techniques:
 - **Probability Distributions**: Bayes' Theorem, Binomial Distribution, and Poisson Distribution.
 - **Sampling Techniques & Laws**: Random sampling and the Central Limit Theorem (CLT).
