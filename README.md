@@ -1,14 +1,43 @@
-# Statistics-with-Py
-This repository contains studies and tips on learning Statistics with Python.
+# Statistics-and-Data-Analysis
 
-> Difficulty: ⭐
-> Techs: ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) 
+This repository contains practical examples and studies on **Statistics & Data Analysis** using Python.
+
+> Difficulty: ⭐ ⭐
+
+> Techs: 🐍 PYTHON 🐼 PANDAS 🔢 NUMPY 📊 MATPLOTLIB
+
 ---
 
 ## Start Here
-This repository contains beginner-friendly Python scripts and exercises covering fundamental statistics concepts.
 
-<img width="335" height="378" alt="{0D95FFF6-1951-4E3D-B158-894B5EC57908}" src="https://github.com/user-attachments/assets/ede18e3b-3f07-4d29-a8b7-d8f10f7fa630" />
+This repository contains beginner to intermediate examples of statistical analysis and exploratory data analysis using Python. It covers essential topics required for data-driven decision-making, ranging from descriptive statistics and variable relationships to advanced inferential statistics and hypothesis testing.
 
-## Libraries
-This repository is designed to provide a solid foundation in three of the most essential Python libraries for data science and numerical analysis: NumPy, Pandas, and Matplotlib. Together, these tools allow you to perform complex numerical operations, handle large datasets, and create powerful visualizations.
+The examples are designed to demonstrate practical techniques that can be applied to real-world datasets and data science workflows.
+
+---
+
+## Datasets Used
+
+- **`ifood-restaurants-november-2020.csv`**: A real-world dataset containing details about restaurants listed on the iFood platform, including metrics such as ratings, delivery fees, and restaurant categories.
+
+---
+
+## Repository Contents
+
+### 1. `basic_statistic`
+Focuses on fundamental descriptive statistics to understand data distributions and central tendencies:
+- **Measures of Central Tendency**: Mean, median, and mode.
+- **Measures of Dispersion**: Variance and standard deviation.
+- **Outlier Detection & Visualization**: Boxplots, interquartile ranges (IQR), and distribution spreads.
+
+### 2. `correlation`
+Explores relationships between different types of variables:
+- **Categorical vs. Categorical (`Quali-Quali`)**: Contingency tables (`crosstab`) and Cramér's V statistic.
+- **Numerical vs. Numerical (`Quanti-Quanti`)**: Correlation matrices using `.corr()` (Pearson/Spearman).
+- **Numerical vs. Categorical (`Quanti-Quali`)**: Bar charts and boxplots of grouped data with mean and standard deviation for metrics.
+
+### 3. `estatistica_inferencial`
+Contains practical cases and scenarios applying inferential statistical techniques:
+- **Probability Distributions**: Bayes' Theorem, Binomial Distribution, and Poisson Distribution.
+- **Sampling Techniques & Laws**: Random sampling and the Central Limit Theorem (CLT).
+- **Estimation & Testing**: Confidence intervals, control groups, p-value analysis, and ANOVA tests.
